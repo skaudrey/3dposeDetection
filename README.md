@@ -28,7 +28,7 @@ This project is a demo for predicting 3D pose from monocular image captured by P
 ## Pretrained model
 * YOLO V3 trained on COCO: [cfg](https://raw.githubusercontent.com/pjreddie/darknet/master/cfg/yolov3.cfg), [weights](https://pjreddie.com/media/files/yolov3.weights), [COCO names](https://raw.githubusercontent.com/pjreddie/darknet/master/data/coco.names)
 * 8 stacked hourglass model (pytorch) trained on MPI: http://www-personal.umich.edu/~cnris/original_8hg/checkpoint.pt
-* Siamese 3D pose model(trained on Human 3.6m, python 3.6): 
+* Siamese 3D pose model(trained on Human 3.6m, python 3.6): https://drive.google.com/file/d/1K5a49TLILSFn-JqVsHZNon9Ui0L-BPYh/view?usp=sharing
 
 ## Structure:
 
