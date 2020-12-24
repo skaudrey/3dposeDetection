@@ -1,0 +1,24 @@
+TRAIN_SIZE:        22386.0
+VALID_SIZE:        3249
+activation:        leaky_relu
+batch_size:        256
+batchnorm_enabled: True
+data_type_2d:      2dshft
+dense_size:        1024
+dropout:           0.2
+frame_density:     5
+geometric_embedding_size: 128
+learning_rate:     0.001
+loss_weights:      [0.5, 0.5, 0.1]
+n_layers_in_block: 2
+normclip_enabled:  False
+num_epochs:        1
+optimiser:         adam
+pos_pairs_ratio:   0.5
+pose_dist_weight:  0.01
+residual_enabled:  True
+siamese_loss:      pose_dist_loss
+test_camera_names: ['60457274']
+train_camera_names: ['54138969', '55011271', '58860488', 'rot_-175', 'rot_-145', 'rot_-130', 'rot_-115', 'rot_-100', 'rot_-85', 'rot_-70', 'rot_-55', 'rot_-40', 'rot_-10', 'rot_50', 'rot_65', 'rot_80', 'rot_95', 'rot_110', 'rot_125', 'rot_140', 'rot_170']
+use_augmented_cams: True
+weight_decay:      True
